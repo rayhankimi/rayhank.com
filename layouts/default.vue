@@ -9,7 +9,7 @@
       <div class="w-full overflow-auto">
         <Marquee title="njirrrr textnya gerak cok"/>
         <slot/>
-        <Marquee title="from drf_spectacular.utils import extend_schema, OpenApiParameter
+        <Marquee class= "my-4" title="from drf_spectacular.utils import extend_schema, OpenApiParameter
 from rest_framework import (
     viewsets,
     status,
