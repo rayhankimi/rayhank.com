@@ -1,14 +1,17 @@
 <template>
-  <nav class="fixed w-full p-6 bg-amber-600 shadow-[2px_4px_0px_rgba(0,0,0,1)]">
-    <div class="flex items-center justify-between">
+  <nav class="fixed w-full p-6 bg-[#3D3D3D] shadow-[4px_4px_0px_rgba(0,0,0,1)] z-50">
+    <div class="flex items-center justify-right px-6 text-[#f5ecd5]">
 
       <!-- Header logo -->
-     <p class="text-lg">
-       Rayhan Kimi
+      <figure>
+        <img src="/logo.png" alt="Rayhan Kimi" class="object-cover h-12 w-12 scale-[2.0]  " />
+      </figure>
+     <p class="px-6 text-2xl">
+       rayhan k
      </p>
 
       <!-- Mobile toggle -->
-      <div class="md:hidden">
+      <div class="ml-auto md:hidden">
         <button @click="drawer">
           <svg
               class="h-8 w-8 fill-current text-black"
@@ -21,12 +24,12 @@
       </div>
 
       <!-- Navbar -->
-      <div class="hidden md:block">
-        <ul class="flex space-x-8 text-sm font-sans">
-          <li><a href="#" class="">Home</a></li>
-          <li><a href="#" class="">Social</a></li>
-          <li><a href="#" class="">Projects</a></li>
-          <li><a href="#" class="">Contact Me!</a></li>
+      <div class="hidden md:block ">
+        <ul class="flex space-x-5 text-lg font-sans">
+          <li><a href="#" class="p-2">home</a></li>
+          <li><a href="#" class="p-2">social</a></li>
+          <li><a href="#" class="p-2">projects</a></li>
+          <li><a href="#" class="p-2">contact</a></li>
         </ul>
       </div>
 
@@ -49,7 +52,7 @@
           class="p-5 transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
           :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
 
-        <div class="close">
+        <div class="close text-[#3d3d3d]">
           <button class="absolute top-0 right-0 mt-4 mr-4" @click=" isOpen = false">
             <svg
                 class="w-6 h-6"
@@ -62,10 +65,10 @@
         </div>
 
         <span @click="isOpen = false" class="flex w-full items-center p-4 border-b">
-          <p> Test Mobile</p>
+          <p class="text-lg text-[#3d3d3d]"> Test Mobile</p>
         </span>
 
-        <ul class="divide-y font-sans">
+        <ul class="divide-y font-sans text-[#3d3d3d]">
           <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Home</a></li>
           <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Social</a></li>
           <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Projects</a></li>
