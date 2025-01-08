@@ -14,9 +14,13 @@
       <span class="text-2xl mx-4"> {{ props.title }}</span>
       <span class="text-2xl mx-4"> {{ props.title }}</span>
       <span class="text-2xl mx-4"> {{ props.title }}</span>
+      <span class="text-2xl mx-4"> {{ props.title }}</span>
+      <span class="text-2xl mx-4"> {{ props.title }}</span>
     </div>
 
     <div class="absolute top-0 py-2 animate-marquee2 whitespace-nowrap">
+      <span class="text-2xl mx-4"> {{ props.title }}</span>
+      <span class="text-2xl mx-4"> {{ props.title }}</span>
       <span class="text-2xl mx-4"> {{ props.title }}</span>
       <span class="text-2xl mx-4"> {{ props.title }}</span>
       <span class="text-2xl mx-4"> {{ props.title }}</span>

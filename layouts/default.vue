@@ -9,7 +9,6 @@
       <div class="w-full overflow-auto">
         <Marquee title="rayhan kimi nabiel athallah" />
         <slot/>
-        <Marquee title="< index page >" class="shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-12" />
       </div>
     </div>
   </div>

@@ -26,10 +26,10 @@
       <!-- Navbar -->
       <div class="hidden md:block ">
         <ul class="flex space-x-5 text-lg font-sans">
-          <li><a href="#" class="p-2">home</a></li>
-          <li><a href="#" class="p-2">social</a></li>
-          <li><a href="#" class="p-2">projects</a></li>
-          <li><a href="#" class="p-2">contact</a></li>
+          <li><a href="/" class="p-2">home</a></li>
+          <li><a href="/stacks" class="p-2">stacks</a></li>
+          <li><a href="/projects" class="p-2">projects</a></li>
+          <li><a href="/contacts" class="p-2">contact</a></li>
         </ul>
       </div>
 
@@ -69,10 +69,10 @@
         </span>
 
         <ul class="divide-y font-sans text-[#3d3d3d]">
-          <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Home</a></li>
-          <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Social</a></li>
-          <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Projects</a></li>
-          <li><a href="#" @click="isOpen = false" class="my-4 inline-block">Contact Me!</a></li>
+          <li><a href="/" @click="isOpen = false" class="my-4 inline-block">Home</a></li>
+          <li><a href="/stacks" @click="isOpen = false" class="my-4 inline-block">Stacks</a></li>
+          <li><a href="/projects" @click="isOpen = false" class="my-4 inline-block">Projects</a></li>
+          <li><a href="/contacts" @click="isOpen = false" class="my-4 inline-block">Contact</a></li>
         </ul>
 
 
