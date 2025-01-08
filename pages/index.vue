@@ -80,7 +80,7 @@ import Card from "~/components/Card.vue";
 
           <!-- LinkedIn -->
           <a
-              href="https://www.linkedin.com/in/rayhan-kimi-nabiel-athallah-897721246/"
+              href="https://www.linkedin.com/in/rayhan-kimi-nabiel-athallah-897721245/"
               target="_blank"
               rel="noopener noreferrer"
               class="rounded-md bg-black"
