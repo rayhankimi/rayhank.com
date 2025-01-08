@@ -4,27 +4,12 @@
     <NavBar/>
 
     <!-- WRAPPER UTAMA -->
-    <div class="pt-[86px] h-screen box-border flex flex-col">
+    <div class="pt-[84px] h-screen box-border flex flex-col">
 
       <div class="w-full overflow-auto">
-        <Marquee title="njirrrr textnya gerak cok"/>
+        <Marquee title="rayhan kimi nabiel athallah" />
         <slot/>
-        <Marquee class= "my-4" title="from drf_spectacular.utils import extend_schema, OpenApiParameter
-from rest_framework import (
-    viewsets,
-    status,
-)
-from rest_framework.decorators import action
-from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticated, AllowAny
-from rest_framework.authentication import TokenAuthentication
-
-from core.models import (
-    IoTDevice,
-    DeviceValue,
-)
-from iotdevice import serializers
-"/>
+        <Marquee title="< index page >" class="shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-12" />
       </div>
     </div>
   </div>
