@@ -11,12 +11,11 @@ import Card from "~/components/Card.vue";
 
         <figure class="mb-4 inline-block max-w-sm md:max-w-lg mx-auto">
           <img
-              width=""
-              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTA4YmM5dXpmOTJlN2NnZzFqOGowNnBnY3lwcmlyMXRhNG1uYXdtaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohjUOUjEK1TXCQRva/giphy.gif"
+              src="https://media.tenor.com/8cn2biXfyXcAAAAM/ruan-mei-ruan.gif"
               class="mb-4  w-full rounded-lg shadow-lg"
-              alt="9/11"/>
+              alt="indexgif"/>
           <figcaption class="text-md text-neutral-600 mx-auto">
-            Picture of twin tower before crash
+            <p>source: <a href="https://tenor.com/view/ruan-mei-ruan-gif-21800007">tenor</a></p>
           </figcaption>
         </figure>
 
