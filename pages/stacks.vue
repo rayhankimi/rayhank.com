@@ -4,8 +4,8 @@
 
 <template>
   <div class="flex w-full justify-center place-items-center p-6">
-    <div class="flex flex-col justify-center">
-      <h1 class="text-3xl md:text-5xl text-center p-6"> Stacks </h1>
+    <div class="flex flex-col p-6 bg-[#F5ECD5] justify-center text-[#3d3d3d] rounded-md border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]">
+      <h1 class="text-3xl md:text-5xl text-center p-6 font-semibold"> Stacks </h1>
       <div>
         <p class="text-md md:text-lg text-center">
           here's some tech stack that i usually use

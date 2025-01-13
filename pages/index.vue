@@ -9,29 +9,29 @@ import Card from "~/components/Card.vue";
       <!-- Card 1 -->
       <div class="flex flex-col w-full md:w-1/3 p-4 m-2 space-y-4 ">
 
-        <figure class="mb-4 inline-block max-w-sm md:max-w-lg mx-auto">
+        <figure class="mb-4 inline-block max-w-sm md:max-w-lg mx-auto ">
           <img
-              src="https://media.tenor.com/8cn2biXfyXcAAAAM/ruan-mei-ruan.gif"
-              class="mb-4  w-full rounded-lg shadow-lg"
+              src="/Finder.webp"
+              class="mb-4  w-full rounded-lg shadow-lg border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]"
               alt="indexgif"/>
           <figcaption class="text-md text-neutral-600 mx-auto">
-            <p>source: <a href="https://tenor.com/view/ruan-mei-ruan-gif-21800007">tenor</a></p>
+            <p>source: livetune - Finder <br/>(spent my highschool days listening to this song)</p>
           </figcaption>
         </figure>
 
       </div> <!-- End of Card 1 -->
 
       <div
-          class="flex flex-col w-full md:w-2/3 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d] rounded-md shadow-[8px_8px_0px_rgba(0,0,0,1)]"
+          class="flex flex-col w-full md:w-2/3 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d] rounded-md border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]"
       >
         <h1 class="text-3xl xl:text-5xl font-semibold mb-4">
-          Hello! , I'm Rayhan Kimi (@rayhank)
+          hello! , i'm rayhan kimi (@rayhank)
         </h1>
-
-        <p class="text-xl xl:text-3xl mb-6">
+        <hr/>
+        <p class="text-md md:text-lg xl:text-2xl mb-6">
           i'm electrical engineer student at udayana university,
-          <br/>
-          an iot developer. that loves to connect everything into cloud!
+          an iot enthusiast, and a long life learner enjoying the exploration of various fields of knowledge,
+          that allows me to uncover diverse solutions to everyday challenges!
         </p>
 
         <!-- Container untuk semua button -->
