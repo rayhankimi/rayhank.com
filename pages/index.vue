@@ -29,7 +29,7 @@ import Card from "~/components/Card.vue";
         </h1>
         <hr/>
         <p class="text-md md:text-lg xl:text-2xl mb-6">
-          i'm electrical engineer student at udayana university,
+          i'm electronic engineering student at udayana university,
           an iot enthusiast, and a long life learner enjoying the exploration of various fields of knowledge,
           that allows me to uncover diverse solutions to everyday challenges!
         </p>
