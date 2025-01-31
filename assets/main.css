@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
     background-color: #FFFaec;
-}
-body {
     background-size: 40px 40px;
     background-image:
             linear-gradient(to right, rgba(128, 128, 128, 0.16) 1px, transparent 1px),

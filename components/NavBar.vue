@@ -65,7 +65,7 @@
         </div>
 
         <span @click="isOpen = false" class="flex w-full items-center p-4 border-b">
-          <p class="text-lg text-[#3d3d3d]"> Test Mobile</p>
+          <p class="text-lg text-[#3d3d3d]"> Rayhan Kimi</p>
         </span>
 
         <ul class="divide-y font-sans text-[#3d3d3d]">
