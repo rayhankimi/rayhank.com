@@ -1,42 +1,46 @@
 <script setup lang="ts">
-
+  import { defineProps } from 'vue';
+  const prop = defineProps({
+    title: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+    image: {
+      type: String,
+      required: true
+    },
+  })
 </script>
 
 <template>
-  <div class="w-full border-2 border-black rounded-md shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white mx-auto my-4">
-    <div class="block">
-      <div class="w-full h-full">
-        <figure class="w-full h-64 border-black border-b-2">
-          <img
-              src="public/gwk.jpg"
-              alt="thumbnail"
-              class="w-full h-full object-cover"
-          />
-        </figure>
-        <div class="px-6 py-5 text-left h-full">
-          <p class="text-base mb-4">May 15th, 2023</p>
-          <h1 class="text-[32px] mb-4">Under Construction! - Rayhan</h1>
-          <p class="text-sm mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a odio vulputate, aliquam dolor quis,
-            vulputate nulla. Sed fringilla sagittis turpis. Sed pulvinar mi lacinia libero molestie tempor non sed
-            ligula. Donec tempor volutpat justo vestibulum porta. Nam laoreet est id lectus tincidunt dignissim. Fusce
-            hendrerit enim eget condimentum malesuada. Vivamus purus nisi, dapibus condimentum dignissim at, varius
-            auctor arcu. Aenean id nisl ac ipsum suscipit porta. Nam id posuere tortor, non eleifend lectus. Phasellus
-            vel nunc scelerisque, suscipit libero vitae, facilisis nunc. Vivamus iaculis est nulla, ac sagittis lectus
-            placerat quis. Phasellus mattis accumsan mauris, ut hendrerit justo pretium a. Nullam id nunc ornare,
-            sollicitudin mi vitae, venenatis lacus. Pellentesque tempus bibendum blandit. Vestibulum ante ipsum primis
-            in faucibus orci luctus et ultrices posuere cubilia curae; Ut finibus lorem eget odio placerat sodales.
+  <div class="bg-[#F5ECD5] flex flex-col md:flex-row py-4 px-4 md:px-24 mx-4 md:mx-8 my-4 border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]">
+    <figure class="w-full md:w-1/2 p-4 mx-auto flex justify-center ">
+      <img
+          :src="image"
+          class="bg-white w-3/4 sm:max-w-3/4 md:w-full h-auto border-2 rounded-md border-black border-2  shadow-[8px_8px_0px_rgba(0,0,0,1)]"
+          alt="indexgif"
+      />
+    </figure>
 
-            Praesent nec tellus pretium, rutrum elit sit amet, ullamcorper enim. In ut mauris porttitor, efficitur magna
-            sed, posuere mi. Pellentesque fringilla augue at hendrerit auctor. Praesent pulvinar tempus neque, ac
-            commodo arcu feugiat id. Vivamus sapien lacus, mattis vel nunc ac, semper semper nisi. Mauris eu ex
-            hendrerit, molestie erat quis, laoreet ligula. Fusce vitae feugiat ante. Pellentesque dignissim dapibus
-            aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla
-            vitae purus id nulla efficitur lobortis. Aliquam aliquet ligula et egestas imperdiet.
-          </p>
-          <strong>Read More</strong>
-        </div>
-      </div>
+    <div class="flex flex-col justify-center md:w-1/2 px-4 text-center md:text-left">
+      <h1 class="text-2xl md:text-3xl font-semibold"> {{ title }}</h1>
+      <p class="text-lg md:text-2xl mt-2 mb-2 ">
+        {{ description }}
+      </p>
+      <button class="rounded-md bg-black my-2 max-w-64">
+      <span
+          class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
+          active:translate-x-0 active:translate-y-0 transition-all"
+      >
+        <a href="/">
+          Back to home
+        </a>
+      </span>
+      </button>
     </div>
   </div>
 </template>
