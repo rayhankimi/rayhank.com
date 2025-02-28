@@ -33,12 +33,12 @@ useSeoMeta({
       <div
           class="flex flex-col w-full md:w-2/3 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
       >
-        <h1 class="text-3xl xl:text-5xl mb-4 font-semibold">
+        <h1 class="text-3xl xl:text-5xl mb-2 font-semibold">
           Rayhan Kimi Nabiel Athallah
         </h1>
         <hr/>
         <h2 class="text-xl xl:text-2xl">i'm electronic engineering student and an iot developer, </h2>
-        <p class="text-md md:text-lg xl:text-2xl mb-6">
+        <p class="text-md md:text-lg xl:text-2xl mb-4">
           and a long life learner enjoying the exploration of various fields of knowledge,
           that allows me to uncover diverse solutions to everyday challenges!
         </p>
