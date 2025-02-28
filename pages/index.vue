@@ -16,15 +16,15 @@ useSeoMeta({
 <template>
   <div class="flex w-full flex-col justify-center items-center py-2 px-6">
 
-    <div class="flex flex-col min-h-[80vh] md:flex-row justify-center items-center ">
+    <div class="flex flex-col min-h-[60vh] xl:min-h-[85%] md:flex-row justify-center items-center ">
       <!-- Card 1 -->
       <div>
-        <div class="flex flex-col md:flex-row">
-          <div data-aos="fade-right" class="flex flex-col w-full md:w-1/3 p-4 m-2 mx-auto">
-            <figure class="mb-4 inline-block md:max-w-lg mx-auto ">
+        <div class="flex flex-col  md:flex-row">
+          <div data-aos="fade-right" class="flex justify-center items-center flex-col w-full md:w-1/3 p-2 m-2 mx-auto">
+            <figure class="md:mb-4 inline-block md:max-w-lg mx-auto ">
               <img
                   src="/profile.png"
-                  class="mb-4  w-[80%]  border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]"
+                  class="md:mb-4  w-[45%] md:w-[80%]  border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]"
                   alt="indexgif"/>
 
             </figure>
@@ -33,14 +33,14 @@ useSeoMeta({
 
           <div
               data-aos="fade-left"
-              class="flex flex-col w-full md:w-2/3 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
+              class="flex flex-col w-full md:w-2/3 p-2 md:p-4 my-2 md:my-4 space-y-2 md:space-y-4 md:justify-center bg-[#F5ECD5] px-4  text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
           >
-            <h1 class="text-3xl xl:text-5xl my-2 font-semibold">
+            <h1 class="text-2xl md:text-3xl xl:text-5xl my-2 font-semibold">
               Rayhan Kimi Nabiel Athallah
             </h1>
             <hr/>
-            <h2 class="text-md md:text-lg xl:text-2xl">i'm electronic engineering student and an iot developer, </h2>
-            <p class="text-md md:text-lg xl:text-2xl ">
+            <h2 class="text-sm md:text-lg xl:text-2xl">i'm electronic engineering student and an iot developer, </h2>
+            <p class="text-sm md:text-lg xl:text-2xl ">
               and a long life learner enjoying the exploration of various fields of knowledge,
               that allows me to uncover diverse solutions to everyday challenges!
             </p>
@@ -50,7 +50,7 @@ useSeoMeta({
               <!-- Button 1 -->
               <button class="rounded-md bg-black">
       <span
-          class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
+          class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1 md:p-1.5 text-md md:text-xl hover:-translate-y-3
         active:translate-x-0 active:translate-y-0 transition-all"
       >
         <a href="/stacks">
@@ -62,7 +62,7 @@ useSeoMeta({
               <!-- Button 2 -->
               <button class="rounded-md bg-black">
       <span
-          class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
+          class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1 md:p-1.5 text-md md:text-xl hover:-translate-y-3
         active:translate-x-0 active:translate-y-0 transition-all"
       >
         <a href="/projects">
@@ -74,7 +74,7 @@ useSeoMeta({
               <!-- Button 3 -->
               <button class="rounded-md bg-black">
       <span
-          class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
+          class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1 md:p-1.5 text-md md:text-xl hover:-translate-y-3
         active:translate-x-0 active:translate-y-0 transition-all"
       >
         <a href="/contacts">
@@ -168,7 +168,7 @@ useSeoMeta({
 
           </div> <!--- End of Card 2 --->
         </div>
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center xl:mb-24">
           <p> Scroll Me! </p>
         </div>
       </div>
@@ -208,7 +208,7 @@ useSeoMeta({
 
     <div class="flex flex-col md:flex-row justify-center mt-6 ">
       <div
-          data-aos="fade-left"
+          data-aos="fade-right"
           class="flex flex-col w-full md:w-4/5 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
       >
         <div class="flex flex-col md:flex-row">
