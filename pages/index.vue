@@ -1,5 +1,13 @@
 <script setup lang="ts">
 import Card from "~/components/Card.vue";
+useSeoMeta({
+  title: 'Rayhan Kimi Nabiel Athallah',
+  ogTitle: 'Rayhank Page',
+  description: 'Rayhan Kimi Nabiel Athallah personal page',
+  ogDescription: 'Rayhan Kimi Nabiel Athallah personal page',
+  ogImage: '/logo.png',
+  ogUrl: 'https://rayhank.com',
+})
 </script>
 
 <template>
@@ -25,7 +33,7 @@ import Card from "~/components/Card.vue";
           class="flex flex-col w-full md:w-2/3 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
       >
         <h1 class="text-3xl xl:text-5xl font-semibold mb-4">
-          hello! , i'm rayhan kimi (@rayhank)
+          Rayhan Kimi Nabiel Athallah
         </h1>
         <hr/>
         <p class="text-md md:text-lg xl:text-2xl mb-6">

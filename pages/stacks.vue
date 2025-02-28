@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import StacksCard from "~/components/StacksCard.vue";
 import Card from "~/components/Card.vue";
+
+useSeoMeta({
+  title: 'Rayhank Stack',
+  ogTitle: 'Rayhank Stack',
+  description: 'Rayhan Kimi Nabiel Athallah tech stack',
+  ogDescription: 'Rayhan Kimi Nabiel Athallah tech stack',
+  ogImage: '/NDWScroll.png',
+  ogUrl: 'https://rayhank.com/stacks',
+})
 </script>
 
 <template>
