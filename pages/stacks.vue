@@ -2,6 +2,7 @@
 import StacksCard from "~/components/StacksCard.vue";
 import Card from "~/components/Card.vue";
 
+
 useSeoMeta({
   title: 'Rayhank Stack',
   ogTitle: 'Rayhank Stack',
@@ -10,14 +11,16 @@ useSeoMeta({
   ogImage: '/NDWScroll.png',
   ogUrl: 'https://rayhank.com/stacks',
 })
+
 </script>
 
 <template>
-  <div class="flex w-full justify-center place-items-center flex-col  p-6">
-    <Card title="Tech Stacks" image="/NDWScroll.png" description="technologies i mostly used in my projects." />
+  <div ref="target" class="flex w-full justify-center place-items-center flex-col  p-6">
+    <Card data-aos="fade-zoom" title="Tech Stacks" image="/NDWScroll.png" description="technologies i mostly used in my projects." />
 
     <div class="flex flex-col md:flex-row ">
       <StacksCard
+          data-aos="fade-up"
           title="Backend & IoT"
           description="I mostly use Django & FastAPI and sometimes Node-Red as a backend API to build my IoT projects. With the help of Dockerized Mosquitto as a broker, I am able to make a secure IoT protocol with low delay."
           :technologies="[
@@ -28,6 +31,7 @@ useSeoMeta({
     ]"/>
 
       <StacksCard
+          data-aos="fade-up"
           title="Microcontroller Boards"
           description="ESP32 & STM32 are my favorite development board. i also use arduino and raspberry pi. to build my IoT projects i use platformio, STM32CUBEIDE, and ESP-IDF as my development environment."
           :technologies="[
@@ -38,6 +42,7 @@ useSeoMeta({
         ]"/>
 
       <StacksCard
+          data-aos="fade-up"
           title="Frontend"
           description="i also capable to build website to support my IoT projects using vue and nuxt.  with help of vite and tailwindcss i able to make a fast and scalable website."
           :technologies="[
@@ -49,6 +54,7 @@ useSeoMeta({
 
     <div class="flex flex-col md:flex-row">
       <StacksCard
+          data-aos="fade-up"
           title="Database"
           description="i utilize mongodb, postgresql, mariadb, and influxdb for most of my projects. althought i did'nt have much experience with querying but i can utilizing ORM for each DB i ever used."
           :technologies="[
@@ -59,6 +65,7 @@ useSeoMeta({
           ]"
       />
       <StacksCard
+          data-aos="fade-up"
           title="API & Others"
           description="i utilize some api and services to support my projects. i capable to build projects with firebase authentication, utilizing docker images, using dockerized grafana for quick dashboard page, and deploy my projects to vercel or AWS EC2."
           :technologies="[
@@ -70,6 +77,7 @@ useSeoMeta({
           ]"
       />
       <StacksCard
+          data-aos="fade-up"
           title="Language"
           description="every language i ever used on my projects, which leftmost is the most used one and rightmost is the least used one."
           :technologies="[

@@ -10,7 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@vueuse/core": "^12.7.0",
+    "aos": "^2.3.4",
+    "motion": "^12.4.7",
     "nuxt": "^3.14.1592",
+    "nuxt-aos": "^1.2.5",
     "vue": "latest",
     "vue-router": "latest"
   },

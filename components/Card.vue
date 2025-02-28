@@ -17,7 +17,7 @@
 </script>
 
 <template>
-  <div class="bg-[#F5ECD5] flex flex-col md:flex-row py-4 px-4 md:px-24 mx-4 md:mx-8 my-4 border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]">
+  <div class="bg-[#F5ECD5] flex flex-col md:flex-row py-4 px-4 md:px-24 mx-4 md:mx-8 my-4 border-2  border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]">
     <figure class="w-full md:w-1/2 p-4 mx-auto flex justify-center ">
       <img
           :src="image"

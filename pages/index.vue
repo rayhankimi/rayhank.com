@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Card from "~/components/Card.vue";
+
 useSeoMeta({
   title: 'Rayhan Kimi | Main - Personal Website',
   ogTitle: 'Rayhan Kimi Nabiel Athallah personal page',
@@ -12,41 +13,41 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="flex w-full justify-center items-center py-6 px-6">
+  <div class="flex w-full flex-col justify-center items-center py-2 px-6">
 
-    <div class="flex flex-col md:flex-row justify-center ">
+    <div class="flex flex-col min-h-[80vh] md:flex-row justify-center items-center ">
       <!-- Card 1 -->
-      <div class="flex flex-col w-full md:w-1/3 p-4 m-2  mx-auto">
+      <div>
+        <div class="flex flex-col md:flex-row">
+          <div data-aos="fade-right" class="flex flex-col w-full md:w-1/3 p-4 m-2 mx-auto">
+            <figure class="mb-4 inline-block md:max-w-lg mx-auto ">
+              <img
+                  src="/profile.png"
+                  class="mb-4  w-[80%]  border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]"
+                  alt="indexgif"/>
 
-        <figure class="mb-4 inline-block md:max-w-lg mx-auto ">
-          <img
-              src="/profile.png"
-              class="mb-4  w-[80%]  border-2 border-black shadow-[8px_8px_0px_rgba(0,0,0,1)]"
-              alt="indexgif"/>
-          <figcaption class="text-md text-neutral-600 mx-auto">
-            <p> </p>
-          </figcaption>
-        </figure>
+            </figure>
 
-      </div> <!-- End of Card 1 -->
+          </div> <!-- End of Card 1 -->
 
-      <div
-          class="flex flex-col w-full md:w-2/3 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
-      >
-        <h1 class="text-3xl xl:text-5xl mb-2 font-semibold">
-          Rayhan Kimi Nabiel Athallah
-        </h1>
-        <hr/>
-        <h2 class="text-xl xl:text-2xl">i'm electronic engineering student and an iot developer, </h2>
-        <p class="text-md md:text-lg xl:text-2xl mb-4">
-          and a long life learner enjoying the exploration of various fields of knowledge,
-          that allows me to uncover diverse solutions to everyday challenges!
-        </p>
+          <div
+              data-aos="fade-left"
+              class="flex flex-col w-full md:w-2/3 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
+          >
+            <h1 class="text-3xl xl:text-5xl my-2 font-semibold">
+              Rayhan Kimi Nabiel Athallah
+            </h1>
+            <hr/>
+            <h2 class="text-md md:text-lg xl:text-2xl">i'm electronic engineering student and an iot developer, </h2>
+            <p class="text-md md:text-lg xl:text-2xl ">
+              and a long life learner enjoying the exploration of various fields of knowledge,
+              that allows me to uncover diverse solutions to everyday challenges!
+            </p>
 
-        <!-- Container untuk semua button -->
-        <div class="flex flex-wrap items-center gap-4">
-          <!-- Button 1 -->
-          <button class="rounded-md bg-black">
+            <!-- Container untuk semua button -->
+            <div class="flex flex-wrap items-center gap-4 py-4">
+              <!-- Button 1 -->
+              <button class="rounded-md bg-black">
       <span
           class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
         active:translate-x-0 active:translate-y-0 transition-all"
@@ -55,10 +56,10 @@ useSeoMeta({
           stacks
         </a>
       </span>
-          </button>
+              </button>
 
-          <!-- Button 2 -->
-          <button class="rounded-md bg-black">
+              <!-- Button 2 -->
+              <button class="rounded-md bg-black">
       <span
           class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
         active:translate-x-0 active:translate-y-0 transition-all"
@@ -67,10 +68,10 @@ useSeoMeta({
           projects
         </a>
       </span>
-          </button>
+              </button>
 
-          <!-- Button 3 -->
-          <button class="rounded-md bg-black">
+              <!-- Button 3 -->
+              <button class="rounded-md bg-black">
       <span
           class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
         active:translate-x-0 active:translate-y-0 transition-all"
@@ -79,20 +80,20 @@ useSeoMeta({
           contacts
         </a>
       </span>
-          </button>
-        </div>
+              </button>
+            </div>
 
-        <hr/>
+            <hr/>
 
-        <div class="flex flex-wrap items-center gap-4 mt-6">
+            <div class="flex flex-wrap items-center gap-4 mt-2">
 
-          <!-- LinkedIn -->
-          <a
-              href="https://www.linkedin.com/in/rayhan-kimi-nabiel-athallah-897721245/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="rounded-md bg-black"
-          >
+              <!-- LinkedIn -->
+              <a
+                  href="https://www.linkedin.com/in/rayhan-kimi-nabiel-athallah-897721245/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="rounded-md bg-black"
+              >
   <span
       class="flex items-center gap-2 -translate-x-2 -translate-y-2
            rounded-md border-2 border-black text-white bg-[#578E7E]
@@ -114,13 +115,13 @@ useSeoMeta({
       />
     </svg>
   </span>
-          </a>
+              </a>
 
-          <!-- Instagram -->
-          <a href="https://www.instagram.com/rayhankimi/"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="rounded-md bg-black">
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/rayhankimi/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="rounded-md bg-black">
       <span
           class="flex items-center gap-2 -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
           active:translate-x-0 active:translate-y-0 transition-all"
@@ -137,14 +138,14 @@ useSeoMeta({
           />
         </svg>
       </span>
-          </a>
+              </a>
 
-          <!-- GitHub -->
-          <a
-              href="https://github.com/rayhankimi"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="rounded-md bg-black">
+              <!-- GitHub -->
+              <a
+                  href="https://github.com/rayhankimi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="rounded-md bg-black">
       <span
           class="flex items-center gap-2 -translate-x-2 -translate-y-2 rounded-md border-2 border-black text-white bg-[#578E7E] p-1.5 text-md md:text-xl hover:-translate-y-3
           active:translate-x-0 active:translate-y-0 transition-all"
@@ -161,9 +162,79 @@ useSeoMeta({
           />
         </svg>
       </span>
-          </a>
+              </a>
+            </div>
+
+          </div> <!--- End of Card 2 --->
         </div>
-      </div> <!--- End of Card 2 --->
+        <div class="flex justify-center items-center">
+          <p> Scroll Me! </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex flex-col md:flex-row justify-center mt-6 ">
+      <div
+          data-aos="fade-left"
+          class="flex flex-col w-full md:w-4/5 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
+      >
+        <div class="flex flex-col md:flex-row">
+          <div class="flex flex-col">
+            <h3 class="text-2xl md:text-3xl font-semibold my-3"> More About Me</h3>
+            <hr/>
+            <p class="text-xl md:text-2xl my-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+              cupiditate, delectus, ea ipsam maxime nisi porro quae quasi quisquam sequi veniam veritatis? Excepturi
+              laborum maiores maxime optio quam sint totam?</p>
+          </div>
+
+          <div
+              class="flex flex-col w-full md:w-1/2 p-4 m-2  mx-auto">
+
+            <figure data-aos="fade-top" class="mb-4 inline-block md:max-w-lg mx-auto  ">
+              <img
+                  src="/rayhan.jpg"
+                  class="mb-4  w-[80%]  border-2 border-black bg-white shadow-[8px_8px_0px_rgba(0,0,0,1)]"
+                  alt="indexgif"/>
+              <figcaption class="text-md text-neutral-600 mx-auto">
+                <p></p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row justify-center mt-6 ">
+      <div
+          data-aos="fade-left"
+          class="flex flex-col w-full md:w-4/5 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
+      >
+        <div class="flex flex-col md:flex-row">
+          <div
+              class="flex flex-col w-full md:w-1/2 p-4 m-2  mx-auto">
+
+            <figure data-aos="fade-top" class="mb-4 inline-block md:max-w-lg mx-auto  ">
+              <img
+                  src="/logo.png"
+                  class="mb-4  w-[80%]  border-2 border-black bg-white shadow-[8px_8px_0px_rgba(0,0,0,1)]"
+                  alt="indexgif"/>
+              <figcaption class="text-md text-neutral-600 mx-auto">
+                <p></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="text-2xl md:text-3xl font-semibold my-3"> My Capability</h3>
+            <hr/>
+            <p class="text-xl md:text-2xl my-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+              cupiditate, delectus, ea ipsam maxime nisi porro quae quasi quisquam sequi veniam veritatis? Excepturi
+              laborum maiores maxime optio quam sint totam?</p>
+          </div>
+
+
+        </div>
+      </div>
     </div>
   </div>
   <Marquee title="<IndexPage />" class="shadow-[8px_8px_0px_rgba(0,0,0,1)] mb-12"/>
