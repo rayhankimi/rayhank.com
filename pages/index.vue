@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import Card from "~/components/Card.vue";
 useSeoMeta({
-  title: 'Rayhan Kimi Nabiel Athallah',
-  ogTitle: 'Rayhank Page',
-  description: 'Rayhan Kimi Nabiel Athallah personal page',
-  ogDescription: 'Rayhan Kimi Nabiel Athallah personal page',
+  title: 'Rayhan Kimi | Main - Personal Website',
+  ogTitle: 'Rayhan Kimi Nabiel Athallah personal page',
+  description: 'Rayhan Kimi Nabiel Athallah - IoT Developer and Cloud Enthusiast',
+  ogDescription: 'Rayhan Kimi Nabiel Athallah - IoT Developer and Cloud Enthusiast. Electronic Engineering Udayana University Student, passionate with cross-learning and exploring new things.',
   ogImage: '/logo.png',
   ogUrl: 'https://rayhank.com',
+  robots: 'index, follow',
 })
 </script>
 
@@ -32,13 +33,13 @@ useSeoMeta({
       <div
           class="flex flex-col w-full md:w-2/3 p-4 my-4 space-y-4 md:justify-center bg-[#F5ECD5] p-5 text-[#3d3d3d]  border-2 border-black shadow-[8px_8px_0px_2px_rgba(0,_0,_0,_0.8)]"
       >
-        <h1 class="text-3xl xl:text-5xl font-semibold mb-4">
+        <h1 class="text-3xl xl:text-5xl mb-4 font-semibold">
           Rayhan Kimi Nabiel Athallah
         </h1>
         <hr/>
+        <h2 class="text-xl xl:text-2xl">i'm electronic engineering student and an iot developer, </h2>
         <p class="text-md md:text-lg xl:text-2xl mb-6">
-          i'm electronic engineering student at udayana university,
-          an iot enthusiast, and a long life learner enjoying the exploration of various fields of knowledge,
+          and a long life learner enjoying the exploration of various fields of knowledge,
           that allows me to uncover diverse solutions to everyday challenges!
         </p>
 
