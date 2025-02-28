@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Card from "~/components/Card.vue";
 
+console.log("Kanjut")
 useSeoMeta({
   title: 'Rayhan Kimi | Main - Personal Website',
   ogTitle: 'Rayhan Kimi Nabiel Athallah personal page',
