@@ -7,7 +7,7 @@
     <div class="pt-[84px] h-auto box-border flex flex-col">
 
       <div class="w-full overflow-auto">
-        <Marquee title="rayhan kimi nabiel athallah" class="md:mb-24" />
+        <Marquee title="rayhan kimi nabiel athallah" class="md:mb-20" />
         <slot/>
       </div>
     </div>

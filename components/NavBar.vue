@@ -7,7 +7,9 @@
         <img src="/logo.png" alt="Rayhan Kimi" class="object-cover h-12 w-12 scale-[2.0]  " />
       </figure>
      <p class="px-6 text-2xl">
-       rayhan k
+       <a href="/">
+          Rayhan Kimi
+       </a>
      </p>
 
       <!-- Mobile toggle -->
