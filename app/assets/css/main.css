@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+/* Nilai warna aslinya ada di sitecontent.ts (dipasang sebagai --site-* di <html>).
+   Blok ini hanya membuat kelas Tailwind seperti bg-sage, text-paper, border-slate. */
+@theme inline {
+  --color-sage: var(--site-sage);
+  --color-slate: var(--site-slate);
+  --color-green: var(--site-green);
+  --color-charcoal: var(--site-charcoal);
+  --color-ink: var(--site-ink);
+  --color-paper: var(--site-paper);
+  --color-red: var(--site-red);
+
+  --font-title: 'Plus Jakarta Sans Variable', sans-serif;
+  --font-body: 'Commit Mono', ui-monospace, monospace;
+}
+
+/* Kursor shell berkedip. Berhenti (tetap terlihat) kalau pengguna memilih kurangi animasi. */
+@theme {
+  --animate-blink: blink 1s steps(1) infinite;
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-blink {
+    animation: none;
+  }
+}

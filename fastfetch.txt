@@ -1,0 +1,24 @@
+                              ╭────────── Hardware ──────────
+                              │ CPU     AMD Ryzen 7 250 (16) @ 5.13 GHz
+       ...........            │ GPU     NVIDIA GeForce RTX 5060 Max-Q / Mobile [Discrete]
+      /,,,,...../             │ GPU     AMD Radeon 780M Graphics [Integrated]
+     /,,,..,,../   ()         │ RAM     11.96 GiB / 14.92 GiB (80%)
+    /,,,,../                  │ Disk    96.38 GiB / 472.94 GiB (20%) - btrfs
+   /,,,.../     /'\           ╰──────────────────────────────
+  /,...../      \,/
+  \,,,,,,\\             _     ╭────────── Software ──────────
+   \,,....\\           / \    │ OS      CachyOS x86_64
+    \...,..\\          \_/    │ Kernel  Linux 7.3.0-5-cachyos
+     \..,,,,,,,,,,,,/         │ WM      niri 26.04 (Wayland)
+      \,,........,,/          │ PKGs    9 (flatpak), 1266 (pacman)
+                              │ Shell   fish 4.9.3
+                              │ Term    tmux 3.8
+                              ╰──────────────────────────────
+
+                              ╭──────── Uptime / Age ────────
+                              │ Uptime  8 hours, 36 mins
+                              │ OS Age  15 days
+                              ╰──────────────────────────────
+
+                                ████████████████████████
+                                ████████████████████████
